@@ -29,6 +29,13 @@ body {
     gap: 18px;
 }
 
+.desc {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px 100px;
+    gap: 40px;
+}
 
 
 ul {
@@ -49,3 +56,28 @@ a {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.text .gibberish {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+}
+
+.text .main {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 8px 26px;
+}
+
