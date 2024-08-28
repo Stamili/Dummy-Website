@@ -32,6 +32,7 @@ body {
 .desc {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #1F2937;
     padding: 50px 100px;
     gap: 40px;
@@ -81,3 +82,30 @@ button {
     padding: 8px 26px;
 }
 
+.second {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    flex-flow: wrap column;
+    gap: 10px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.img {
+    border-radius: 16px;
+    border: solid #3882F6 5px;
+}
