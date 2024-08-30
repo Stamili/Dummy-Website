@@ -72,14 +72,21 @@ a {
     margin-top: 0px;
 }
 
-button {
+.button1, .button2 {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: bold;
-    border: none;
     border-radius: 6px;
     font-size: 16px;
     padding: 8px 26px;
+}
+
+.button1 {
+    border: none;
+}
+
+.button2 {
+    border: solid 3px #F9FAF8;
 }
 
 .second {
@@ -134,4 +141,32 @@ button {
     color: #1F2937;
     font-size: 20px;
     margin-left: 750px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    height: 140px;
+    margin: 100px 200px;
+    border-radius: 8px;
+    gap: 150px;
+}
+
+.signup .left {
+    flex-flow: wrap column;
+    gap: 5px;
+    align-items: start;
+}
+
+.signup .left .top {
+    font-weight: 700;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.signup .left .buttom {
+    color: #E5E7EB;
+    font-size: 16px;
 }
